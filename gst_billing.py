@@ -25,14 +25,12 @@ cursor = mycon.cursor()
 
 '''
 # CONNECTION INFORMATION
-# user = "root"
-# password = "eshita@1234"
-# host_name = "localhost"
+
 # database = "gst"
 
 # CONNECTING TO THE DATABASE
 # connect() establishes database connection 
-mycon = sql.connect(host = "localhost" , user = "root", password = "eshita@1234", database = "gst")
+mycon = sql.connect(host = <host_name> , user = <user>, password = <password>, database = "gst")
 
 if mycon.is_connected():
     print("Successfully connected to database!\n ")
