@@ -19,7 +19,7 @@
 
 
 import mysql.connector as sql
-mycon = sql.connect(host = "localhost" , user = "root", password = "eshita@1234", database = "gst")
+mycon = sql.connect(host = <host_name> , user = <user>, password = <password>, database = "gst")
 cursor = mycon.cursor()
 
 
