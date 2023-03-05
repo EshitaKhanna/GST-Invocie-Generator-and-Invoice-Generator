@@ -1,4 +1,4 @@
-# GST-Invocie-Generator-and-Stock Management System
+# GST-Invoice-Generator-and-Stock Management System
 A system that enables an organization to manage the stock and create GST Invoices using Python and MySQL.
 
 
